@@ -1,0 +1,87 @@
+@import url(./globales.css);
+
+.main-body{
+    width: 100%;
+    height: 120vh;
+    background-color: var(--darkCyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat; 
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.main-card{
+    background-color: white;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.main-card .bg-head {
+width: 100%;
+height: 140px;
+background-image: url(./images/bg-pattern-card.svg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 15px 15px 0 0;
+}
+
+.main-card figure img{
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top:100px;
+    left: calc(50% - 50px);
+}
+
+.main-card h2{
+    margin-top: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+.main-card h2 span{
+    color: var(--darkGrayishBlue);
+    font-weight: 400;
+}
+
+.main-card p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    color: var(--darkGrayishBlue)
+}
+
+.main-card .info{
+    border-top: 1px solid var(--darkGray);
+    margin-top: 24px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(---veryDarkDesaturatedBlue);
+    padding: 28px;
+}
+
+.main-card .info div{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card .info div span{
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: var(--darkGrayishBlue);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
